@@ -1,0 +1,82 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Primeiro Site</title>
+    </head>
+    
+    <body>
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Primeiro Site</h1>
+        </header>
+    
+        <!-- Links em uma lista -->
+        <nav>
+            <ul>
+                <li><a href="https://img.memegenerator.net/instances/600x600/29052611.jpg">
+                        <img src="https://media4.giphy.com/media/IwSG1QKOwDjQk/200w.webp?cid=ecf05e47wew8cemfkr2z8rw8w78k51m7ezxm1r2edts3z9yn&ep=v1_gifs_search&rid=200w.webp&ct=g"
+                            height="50px"></a></li>
+                <li><a href="https://img.memegenerator.net/instances/600x600/81603714.jpg">meme 01</a></li>
+                <li><a href="https://img.memegenerator.net/instances/600x600/27481256.jpg">meme 02</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Tabela de Dados -->
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matéria</th>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>LMS</strong></td>
+                        <td>quinta | sexta</td>
+                        <td>CD</td>
+                    </tr>
+                    <tr>
+                        <td><strong>POO</strong></td>
+                        <td>terça | quarta</td>
+                        <td>AB</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FUP</strong></td>
+                        <td>segunda</td>
+                        <td>CD</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+        <!-- Novo Artigo com Formulário de Cadastro de Usuários -->
+        <article>
+            <h2>Cadastro de Usuários</h2>
+            <form action="https://www.w3schools.com/action_page.php" method="GET"> 
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" maxlength="15" size="15px"><br><br>
+        
+                <label for="numero">Qual o valor do emprestimo necessáio?:</label>     
+                <input type="number" id="numero" name="numero" min="25000" max="30000" required><br><br>
+                
+    
+                <label for="radiobox">Escolha uma opção de empréstimo:</label>
+                <input type="radio" id="opcao1" name="radiobox" value="opcao1" required>
+                <label for="opcao1">Salvar o mês</label>
+                <input type="radio" id="opcao2" name="radiobox" value="opcao2">
+                <label for="opcao2">Investir em um negócio</label><br><br>
+                <input type="text" id="apenas-leitura" name="apenas-leitura" readonly value="contrato que não vai ser lido"  size="30px" ><br><br>
+                <label for="checkbox">aceita os termos de condições:</label>
+                <input type="checkbox" id="checkbox" name="checkbox" required><br><br>
+    
+                <input type="submit" value="Mandar pra god">
+            </form>
+        </article>
+    </body>
+    
+    </html>
